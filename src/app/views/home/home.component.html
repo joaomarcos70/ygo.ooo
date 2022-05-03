@@ -1,0 +1,60 @@
+<app-main>
+    <div class="row">
+        <section class="col-md-12 wordBody">
+
+            <div class="row">
+                <div class="col-md-12 inputWords" id="line1">
+                    <input type="text" id="col1">
+                    <input type="text" id="col2">
+                    <input type="text" id="col3">
+                    <input type="text" id="col4">
+                    <input type="text" id="col5">    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 inputWords" id="line2">
+                    <input type="text" [disabled]="disableLine2" id="col1">
+                    <input type="text" [disabled]="disableLine2" id="col2">
+                    <input type="text" [disabled]="disableLine2" id="col3">
+                    <input type="text" [disabled]="disableLine2" id="col4">
+                    <input type="text" [disabled]="disableLine2" id="col5">    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 inputWords" id="line3">
+                    <input type="text" [disabled]="disableLine3" id="col1">
+                    <input type="text" [disabled]="disableLine3" id="col2">
+                    <input type="text" [disabled]="disableLine3" id="col3">
+                    <input type="text" [disabled]="disableLine3" id="col4">
+                    <input type="text" [disabled]="disableLine3" id="col5">    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 inputWords" id="line4">
+                    <input type="text" [disabled]="disableLine4" id="col1">
+                    <input type="text" [disabled]="disableLine4" id="col2">
+                    <input type="text" [disabled]="disableLine4" id="col3">
+                    <input type="text" [disabled]="disableLine4" id="col4">
+                    <input type="text" [disabled]="disableLine4" id="col5">    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 inputWords" id="line5">
+                    <input type="text" [disabled]="disableLine5" id="col1">
+                    <input type="text" [disabled]="disableLine5" id="col2">
+                    <input type="text" [disabled]="disableLine5" id="col3">
+                    <input type="text" [disabled]="disableLine5" id="col4">
+                    <input type="text" [disabled]="disableLine5" id="col5">    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <app-virtual-keyboard></app-virtual-keyboard>
+        </div>
+    </div>
+
+        
+</app-main>

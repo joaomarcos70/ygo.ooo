@@ -1,0 +1,31 @@
+.wordBody{
+    padding-bottom: 100px;}
+
+.inputWords{
+    display: flex;
+    justify-content: center;
+    :hover{
+        cursor: pointer;
+    }
+    :focus{
+        border-bottom: 15px solid;
+        border-color:#574a50;
+    }
+    :disabled{
+        background-color: #695e62;
+        border:none;
+    }
+
+    input{
+        width: 80px;
+        height: 80px;
+        border:8px solid;
+        border-color:#574a50;
+        border-radius: 10px;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        background-color: #75686d;
+        outline: none;
+        caret-color: transparent;
+    }
+}
