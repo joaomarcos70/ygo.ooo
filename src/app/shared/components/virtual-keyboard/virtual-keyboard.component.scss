@@ -1,0 +1,12 @@
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin-left: 25%;
+
+    .keysConfigGrid{
+        width: 10%;
+        padding-bottom: 8px;
+    }
+}
+

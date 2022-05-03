@@ -1,0 +1,8 @@
+<section class="keyboard">
+        <div class="row">
+                <div class="keysConfigGrid" *ngFor="let key of keyboard">
+                    <key-component [inputKey]="key.value" [inputColor]="key.bgColor" [inputValid]="key.disable">
+                    </key-component>
+                </div>
+        </div>
+</section>
